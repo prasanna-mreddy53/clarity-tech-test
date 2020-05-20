@@ -1,4 +1,4 @@
-## Clarity SOftware Technical Test
+## Clarity Software Technical Test
 
 I have consumed the below public API to develop the application:
 
