@@ -1,9 +1,11 @@
 ## Clarity SOftware Technical Test
 
-I have consumed the below public API:
+I have consumed the below public API to develop the application:
 
 List cocktails and their ingredients using TheCocktailDB
+
 homepage: https://www.thecocktaildb.com/api.php
+
 APIs Used:
 
 1. List all categories: https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list
@@ -17,7 +19,7 @@ APIs Used:
 
 1. Once you cloned the repository, Run the below command to install node modules
 
-### `npm i`
+### `npm install`
 
 2. Once node modules are installed successfully then run the below command to launch the application in http://localhost:3000 url from project directory
 
