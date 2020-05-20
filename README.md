@@ -27,10 +27,15 @@ APIs Used:
 
 Which will open the home page and it has below functionalities implemented
 a) it will load Categories on the left hand side
+
 b) it will load drinks from Selected Category ( by Default 'Ordinary Drink')
+
 c) Selction of any category, corresponding drinks list will be updated
+
 d) Mouse over of any Drink, will have Quick View option to see more details about the drink
+
 e) Once we click Quick View option then Modal popup will be displayed with more details about the drink
+
 f) Also have search functionality in the header component. We should be able to search drinks from the selected drink category(left hand side)
 
 3. Running Unit Tests
