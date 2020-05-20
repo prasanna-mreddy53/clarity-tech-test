@@ -26,6 +26,7 @@ APIs Used:
 ### `npm start`
 
 Which will open the home page and it has below functionalities implemented
+
 a) it will load Categories on the left hand side
 
 b) it will load drinks from Selected Category ( by Default 'Ordinary Drink')
