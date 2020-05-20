@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drink Details reducer Drink Details FETCH_DETAILS_SUCCESS action 1`] = `
+Object {
+  "drinkDetails": Object {
+    "drinks": Array [
+      Object {
+        "strDrink": "Margarita",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Drink Details reducer Drink Details should return the initial state 1`] = `
+Object {
+  "drinkDetails": Array [],
+  "error": "",
+  "loading": false,
+}
+`;
+
+exports[`Drink Details reducer should match FETCH_DETAILS_FAILURE action 1`] = `
+Object {
+  "0": Object {
+    "drinkDetails": Array [],
+    "error": "",
+    "loading": false,
+  },
+  "error": undefined,
+}
+`;

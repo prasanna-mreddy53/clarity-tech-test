@@ -1,21 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Clarity SOftware Technical Test
 
-## Available Scripts
+I have consumed the below public API:
 
-In the project directory, you can run:
+List cocktails and their ingredients using TheCocktailDB
+homepage: https://www.thecocktaildb.com/api.php
+APIs Used:
+
+1. List all categories: https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list
+2. Fetch drinks by drink Category:
+   https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Ordinary_Drink
+
+3. Lookup drink details by drink Id:
+   https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
+
+## Running application
+
+1. Once you cloned the repository, Run the below command to install node modules
+
+### `npm i`
+
+2. Once node modules are installed successfully then run the below command to launch the application in http://localhost:3000 url from project directory
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Which will open the home page and it has below functionalities implemented
+a) it will load Categories on the left hand side
+b) it will load drinks from Selected Category ( by Default 'Ordinary Drink')
+c) Selction of any category, corresponding drinks list will be updated
+d) Mouse over of any Drink, will have Quick View option to see more details about the drink
+e) Once we click Quick View option then Modal popup will be displayed with more details about the drink
+f) Also have search functionality in the header component. We should be able to search drinks from the selected drink category(left hand side)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. Running Unit Tests
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I have written unit tests using Jest and enzyme
+
+4. Production build
 
 ### `npm run build`
 
@@ -24,45 +46,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -1,0 +1,55 @@
+// Model
+
+.modal-dialog {
+  max-width: 80% !important;
+  margin: 1.75rem auto;
+  @media (min-width: 576px) {
+    max-width: 80% !important;
+  }
+  h2 {
+    color: blue;
+  }
+  h4 {
+    color: burlywood;
+  }
+}
+
+.header-bg {
+  color: blue;
+}
+
+//hover
+.img__wrap {
+  position: relative;
+}
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: 0.2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+  padding: 10px;
+}

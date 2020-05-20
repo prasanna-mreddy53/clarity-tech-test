@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drinks reducer Drinks FETCH_DRINKS_SUCCESS action 1`] = `
+Object {
+  "drinks": Object {
+    "drinks": Array [
+      Object {
+        "strDrink": "Margarita",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Drinks reducer Drinks should return the initial state 1`] = `
+Object {
+  "drinkCategory": "Ordinary Drink",
+  "drinks": Array [],
+  "error": "",
+  "filteredDrinks": Array [],
+  "loading": false,
+}
+`;
+
+exports[`Drinks reducer should match FETCH_DRINKS_FAILURE action 1`] = `
+Object {
+  "0": Object {
+    "drinks": Array [],
+    "error": "",
+    "loading": false,
+  },
+  "error": undefined,
+}
+`;
